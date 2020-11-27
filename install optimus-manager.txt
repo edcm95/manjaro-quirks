@@ -1,0 +1,20 @@
+1. install nvidia proprietary drivers
+2. This: (should not be needed anymore) -> 
+	"Manjaro ships with a default configuration for SDDM (the default login manager for KDE) which overrides some keys needed by optimus-manager.
+	To use optimus-manager, you need to edit the file /etc/sddm.conf and simply put a # before the line starting with DisplayCommandand the one starting with DisplayStopCommand."
+
+3. Read important notices from: https://github.com/Askannz/optimus-manager
+
+
+4. Settings that should work:
+
+	Switching methon -> none
+	PCI Power contro -> Yes
+	PCI remove -> No
+	Auto logout -> Yes
+	DRI -> 3
+	Driver -> Modesetting
+	MOdeset -> Yes
+	PAT -> YEs
+
+5. Check /.initrx DEFAULT thingy to avoid black screen with cursor.

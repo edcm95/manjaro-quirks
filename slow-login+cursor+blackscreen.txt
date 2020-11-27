@@ -1,0 +1,7 @@
+change ./xinitrc
+
+DEFAULT_SESSION=startkde 
+
+to
+
+startplasma-x11
