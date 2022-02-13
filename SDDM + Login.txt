@@ -1,3 +1,5 @@
+# Slow logon + Black screen but cursor shows
+
 change ./xinitrc
 
 DEFAULT_SESSION=startkde 
