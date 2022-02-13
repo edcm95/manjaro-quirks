@@ -1,3 +1,5 @@
+# Instalation
+
 1. install nvidia proprietary drivers
 2. This: (should not be needed anymore) -> 
 	"Manjaro ships with a default configuration for SDDM (the default login manager for KDE) which overrides some keys needed by optimus-manager.
