@@ -2,3 +2,12 @@
 # When in dual-boot the system should only boot into Windows via windows boot manager, open cmd with admin and run:
 
 bcdedit /set {bootmgr} path \EFI\manjaro\grubx64.efi
+
+
+# After hibernation -> Black screen
+
+check grub command on /etc/grub
+
+needs to have:
+
+resume=UUID=<insert main device UUID>
