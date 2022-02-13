@@ -1,0 +1,4 @@
+# Fix boot afte being overwritten by a no longer available path
+# When in dual-boot the system should only boot into Windows via windows boot manager, open cmd with admin and run:
+
+bcdedit /set {bootmgr} path \EFI\manjaro\grubx64.efi
